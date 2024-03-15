@@ -1,0 +1,48 @@
+name: health24-build-deploy
+
+on:
+  push:
+    branches:
+      - 'build-yc'
+
+  pull_request:
+    branches:
+      - 'build-yc'
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+      - name: Set up BuildX
+        uses: docker/setup-buildx-action@v3  # Corrected indentation issue
+      - name: Login to Docker
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_EMAIL }}  # Consistent use of double quotes
+          password: ${{ secrets.DOCKER_PASS }}
+      - name: Build and Push
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: "mviyotech/${{secrets.APP_NAME}}:latest"
+
+  deployment:
+    runs-on: ubuntu-latest
+    needs: docker  # This line ensures deployment runs after "docker" job finishes
+    steps:
+      - name: Stopping running image  # Corrected capitalization
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.HOST_USER }}
+          password: ${{ secrets.SSH_PASS }}
+          port: 22
+          script: |
+            echo ${{secrets.APP_NAME}}
+            docker container stop ${{ secrets.APP_NAME }}  # Consistent use of double quotes
+            docker container rm ${{ secrets.APP_NAME }}   # Consistent use of double quotes
+            docker pull ${{ secrets.DOCKER_USERNAME }}/${{ secrets.APP_NAME }}:latest  # Consistent use of double quotes
+            docker run -d --name ${{ secrets.APP_NAME }} -p 10000:15000 ${{ secrets.DOCKER_USERNAME }}/${{ secrets.APP_NAME }}:latest
+
