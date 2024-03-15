@@ -3,11 +3,11 @@ name: health24-build-deploy
 on:
   push:
     branches:
-      - 'build-yc'
+      - 'main'
 
   pull_request:
     branches:
-      - 'build-yc'
+      - 'main'
 
 jobs:
   docker:
