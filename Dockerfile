@@ -27,7 +27,7 @@ CMD chmod -R 777 ./bootstrap/
 
 CMD cat .env
 
-CMD php artisan serve --host=0.0.0.0 --port=15000
+CMD php artisan serve --host=0.0.0.0 --port=15000 -vvv
 
 CMD echo $USER
 
