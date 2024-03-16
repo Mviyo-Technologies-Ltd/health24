@@ -27,4 +27,6 @@ CMD chmod -R 777 ./bootstrap/
 
 CMD php artisan serve --host=0.0.0.0 --port=15000
 
+CMD echo $USER
+
 EXPOSE 15000
