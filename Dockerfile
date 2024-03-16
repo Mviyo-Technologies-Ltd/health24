@@ -21,6 +21,8 @@ RUN composer install
 
 CMD php artisan key:generate
 
+CMD chmod -R 777 storage
+
 CMD php artisan serve --host=0.0.0.0 --port=15000
 
 EXPOSE 15000
