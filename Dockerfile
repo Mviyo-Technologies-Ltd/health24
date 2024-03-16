@@ -21,14 +21,6 @@ RUN composer install
 
 CMD php artisan key:generate
 
-CMD chmod -R 777 ./storage
-
-CMD chmod -R 777 ./bootstrap/
-
-CMD cat .env
-
-CMD php artisan serve --host=0.0.0.0 --port=15000 -vvv
-
-CMD echo $USER
+CMD php artisan serve --host=0.0.0.0 --port=8000 --verbose
 
 EXPOSE 15000

@@ -44,5 +44,5 @@ jobs:
             docker container stop ${{ secrets.APP_NAME }}  # Consistent use of double quotes
             docker container rm ${{ secrets.APP_NAME }}   # Consistent use of double quotes
             docker pull ${{ secrets.DOCKER_USERNAME }}/${{ secrets.APP_NAME }}:latest  # Consistent use of double quotes
-            docker run -d --name ${{ secrets.APP_NAME }} -p 10000:15000 ${{ secrets.DOCKER_USERNAME }}/${{ secrets.APP_NAME }}:latest
+            docker run -d --name ${{ secrets.APP_NAME }} -p 8000:8000 ${{ secrets.DOCKER_USERNAME }}/${{ secrets.APP_NAME }}:latest
 
