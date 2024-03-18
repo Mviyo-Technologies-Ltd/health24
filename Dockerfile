@@ -19,7 +19,7 @@ WORKDIR /app
 
 RUN composer install
 
-CMD php artisan key:generate
+RUN php artisan key:generate
 
 CMD php artisan serve --host=0.0.0.0 --port=8000 --verbose
 
