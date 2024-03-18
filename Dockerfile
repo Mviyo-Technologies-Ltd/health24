@@ -1,4 +1,4 @@
-FROM php:latest
+FROM php:8.3
 
 RUN curl -sS https://getcomposer.org/installer | php -- \
      --install-dir=/usr/local/bin --filename=composer
@@ -23,4 +23,4 @@ CMD php artisan key:generate
 
 CMD php artisan serve --host=0.0.0.0 --port=8000 --verbose
 
-EXPOSE 15000
+EXPOSE 8000
