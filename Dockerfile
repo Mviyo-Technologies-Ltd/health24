@@ -21,6 +21,6 @@ RUN composer install
 
 CMD php artisan key:generate
 
-CMD php artisan serve --port=8000 --verbose
+CMD php artisan serve --host 0.0.0.0 --port=8000 --verbose
 
 EXPOSE 8000
