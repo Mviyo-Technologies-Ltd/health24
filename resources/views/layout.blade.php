@@ -18,16 +18,16 @@
         type='text/css' media='all' />
     <!-- Google Fonts -->
     <!-- Style -->
-    <link rel='stylesheet' href={{asset('css/bootstrap.min.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/owl.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/swiper.min.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/jquery.fancybox.min.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/icomoon.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/flexslider.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/font-awesome.min.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/style.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' href={{asset('css/scss/elements/theme-css.css')}} type='text/css' media='all' />
-    <link rel='stylesheet' id="creote-color-switcher-css" href={{asset('css/scss/elements/color-switcher/color.css')}}
+    <link rel='stylesheet' href="{{asset('css/bootstrap.min.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/owl.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/swiper.min.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/jquery.fancybox.min.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/icomoon.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/flexslider.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/font-awesome.min.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/style.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' href="{{asset('css/scss/elements/theme-css.css')}}" type='text/css' media='all' />
+    <link rel='stylesheet' id="creote-color-switcher-css" href="{{asset('css/scss/elements/color-switcher/color.css')}}"
         type='text/css' media='all' />
     <!-- Style-->
     <!----woocommerce---->
