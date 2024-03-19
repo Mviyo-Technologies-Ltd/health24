@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://health24support.com'),
+    'url' => env('APP_URL', 'https://health24support.com'),
 
     'asset_url' => env('ASSET_URL'),
 
