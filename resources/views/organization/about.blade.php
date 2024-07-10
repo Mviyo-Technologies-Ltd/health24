@@ -3,7 +3,8 @@
 @section('content')
     <div class="page_header_default style_one ">
         <div class="parallax_cover">
-            <img src="{{ asset('images/banner/about.png') }}" alt="bg_image" class="cover-parallax">
+            <!-- removeed the 1 i first put /about_top.jpg -->
+            <img src="{{ asset('images/banner/woman_baby_about.jpg') }}" alt="bg_image" class="cover-parallax">
         </div>
         <div class="page_header_content pd_top_90">
             <div class="auto-container">
@@ -143,7 +144,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="simple_image_boxes parallax_cover height_264px">
-                        <img src="{{ asset('images/about/about-2.png') }}" class="simp_img cover-parallax" alt="image">
+                        <img src="{{ asset('images/about/standout.jpg') }}" class="simp_img cover-parallax" alt="image">
                     </div>
                     <!--===============spacing==============-->
                     <div class="pd_bottom_20"></div>
@@ -207,7 +208,7 @@
                     <div class="pd_bottom_20"></div>
                     <!--===============spacing==============-->
                     <div class="simple_image_boxes  height_264px">
-                        <img src={{asset('images/about/about-3.png')}} class="simp_img img-fluid" alt="image">
+                        <img src={{asset('images/about/vision_about.jpg')}} class="simp_img img-fluid" alt="image">
                     </div>
                 </div>
             </div>
@@ -228,7 +229,7 @@
                         <div class="s_tab_wrapper">
                             <div class="s_tabs_content">
                                 <div class="s_tab fade active-tab show" id="tabtabone">
-                                    <div class="tab_content one" style="background-image:url({{asset('images/banner/about-1.png')}})">
+                                    <div class="tab_content one" style="background-image:url({{asset('images/banner/choose_us_2.jpg')}})">
                                         <div class="content_image">
                                             <h6>Why Choose Us</h6>
 

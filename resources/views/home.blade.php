@@ -7,7 +7,7 @@
 
       <div class="slide-item-content">
          <div class="slide-item content_left">
-            <div class="image-layer" style="background-image:url({{asset('images/sliders/slider-1.png')}})">
+            <div class="image-layer" style="background-image:url({{asset('images/sliders/home_first.jpg')}})">
             </div>
             <div class="auto-container">
                <div class="row">
@@ -114,8 +114,8 @@
                      <h2>
                         Empowerment
                      </h2>
-                     <p> We equip you with the knowledge, resources, and skills needed to make informed decisions about
-                        your health. </p>
+                     <p> We equip you with the knowledge, resources, and skills needed to live independently 
+                        and make informed decisions regarding your support </p>
                   </div>
                </div>
             </div>
@@ -139,7 +139,7 @@
 
             <div class="service_wrapper">
                <div class="move_image_absolute">
-                  <img src="images/about/about-1.png" class="class-fluid" alt="image" />
+                  <img src="images/about/about_first.jpg" class="class-fluid" alt="image" />
                </div>
                {{-- <div class="row">
                   <div class="col-lg-6 col-md-6">
@@ -252,7 +252,7 @@
                      <div class="swiper-slide">
                         <div class="project_post style_seven">
                            <div class="image_box">
-                              <img src={{asset("images/services/service-1.png")}} class="img-fluid" alt="img">
+                              <img src={{asset("images/banner/about_top.jpg")}} class="img-fluid" alt="img">
                            </div>
                            <div class="content_box ">
                               <h2 class="title_pro"><a href="#" rel="bookmark">Community Participation</a></h2>
@@ -266,7 +266,7 @@
                      <div class="swiper-slide">
                         <div class="project_post style_seven">
                            <div class="image_box">
-                              <img src={{asset("images/services/service-2.png")}} class="img-fluid" alt="img">
+                              <img src={{asset("images/services/support_cc.jpg")}} class="img-fluid" alt="img">
                            </div>
                            <div class="content_box ">
                               <h2 class="title_pro"><a href="#" rel="bookmark">Support Co-ordination</a></h2>
