@@ -15,7 +15,7 @@
                      <div class="slider_content pd_top_180 pd_bottom_200">
                         <h6 class="animate_up d-inline-block"> Health 24</h6>
                         <h1 class="animate_left"> Health Services </h1>
-                        <p class="description animate_right"> A comprehensive range of support options to  <br> help you achieve your goals and live independently. </p>
+                        <p class="description animate_right text-white" > A comprehensive range of support options to  <br> help you achieve your goals and live independently. </p>
                         <div class="button_all animate_down">
                            <a href="#" target="_blank" rel="nofollow" class="theme-btn one  animated">Read
                               More</a>
