@@ -222,7 +222,14 @@ Generat Settings
   [type="submit"]:-moz-focusring {
     outline: 1px dotted ButtonText;
   }
-  
+ 
+
+/* Adjust the height for smaller screens */
+@media (max-width: 768px) {
+  .image-layer {
+      height: 100vh!important; /* Smaller height for mobile devices */
+  }
+}
   /**
    * Correct the padding in Firefox.
    */
