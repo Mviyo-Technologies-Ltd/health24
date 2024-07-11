@@ -2,8 +2,7 @@
 
 @section('content')
 <section class="slider style_four nav_position_one">
-   <div class="owl-carousel owl_nav_block owl_dots_none theme_carousel owl-theme"
-      data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 7000, "smartSpeed": 1800, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
+   <div class="owl-carousel owl_nav_block owl_dots_none theme_carousel owl-theme" data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 7000, "smartSpeed": 1800, "responsive":{ "0" :{ "items": "1" }, "768" :{ "items" : "1" } , "1000":{ "items" : "1" }}}'>
 
       <div class="slide-item-content">
          <div class="slide-item content_left">
@@ -15,7 +14,7 @@
                      <div class="slider_content pd_top_180 pd_bottom_200">
                         <h6 class="animate_up d-inline-block"> Health 24</h6>
                         <h1 class="animate_left"> Health Services </h1>
-                        <p class="description animate_right text-white" > A comprehensive range of support options to  <br> help you achieve your goals and live independently. </p>
+                        <p class="description animate_right text-white"> A comprehensive range of support options to <br> help you achieve your goals and live independently. </p>
                         <div class="button_all animate_down">
                            <a href="#" target="_blank" rel="nofollow" class="theme-btn one  animated">Read
                               More</a>
@@ -114,7 +113,7 @@
                      <h2>
                         Empowerment
                      </h2>
-                     <p> We equip you with the knowledge, resources, and skills needed to live independently 
+                     <p> We equip you with the knowledge, resources, and skills needed to live independently
                         and make informed decisions regarding your support </p>
                   </div>
                </div>
@@ -183,6 +182,52 @@
                </div> --}}
             </div>
          </div>
+      </div>
+   </div>
+   <!-- spacing -->
+   <div class="pd_bottom_30"></div>
+   <!-- spacing -->
+   <div class="container pd_zero">
+      <div class="row">
+         <div class="col-xl-6 col-lg-12">
+
+            <div class="title_all_box style_one dark_color">
+               <div class="move_image_absolute">
+                  <img src="images/about/mother.jpg" class="class-fluid" alt="image" />
+               </div>
+
+            </div>
+         </div>
+         <div class="col-xl-6 col-lg-12">
+            <div class="title_all_box style_one dark_color">
+               <div class="title_sections right">
+                  <div class="before_title"> Point of Difference:  </div>
+                  <h2>We provide a wide range of NDIS services 24/7. </h2>
+                  <p> Our team members also have extensive experience in perinatal mental health services
+                     and facilitate Circle of Security parenting program,
+                     offer support with bonding and healthy attachments, promote mother and baby interactions,
+                     help you getting into a daily routine with your baby and sleep management. </p>
+               </div>
+            </div>
+           
+
+            <!--===============spacing==============-->
+            <!-- <div class="pd_bottom_30"></div> -->
+            <!--===============spacing==============-->
+            <div class="signature_wrapper">
+               <div class="row gutter_15px">
+                  <div class="col-lg-4 col-md-12">
+                     <div class="theme_btn_all color_one">
+                        <a href="#" class="theme-btn two">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--===============spacing==============-->
+            <div class="pd_bottom_30"></div>
+            <!--===============spacing==============-->
+         </div>
+
       </div>
    </div>
    <!--===============spacing==============-->
@@ -543,7 +588,7 @@
                   <h2>Leaders Health Services</h2>
                   <div class="description_box">
                      <p>Health 24 Support Services, goes beyond basic support. Our team of experts leverages their experience to create personalized plans that empower you to take charge of your health and well-being, guiding you on your unique journey to a healthier you.</p>
-                     <p>Unlike traditional healthcare that might focus on one-size-fits-all solutions, Health 24 Support Services, takes a personalized approach. Our team of experienced professionals dives deep to understand your unique health goals and challenges.  They then craft a customized plan that empowers you to take control of your well-being, equipping you with the knowledge and resources necessary to achieve lasting positive changes.</p>
+                     <p>Unlike traditional healthcare that might focus on one-size-fits-all solutions, Health 24 Support Services, takes a personalized approach. Our team of experienced professionals dives deep to understand your unique health goals and challenges. They then craft a customized plan that empowers you to take control of your well-being, equipping you with the knowledge and resources necessary to achieve lasting positive changes.</p>
                   </div>
                </div>
             </div>
@@ -553,8 +598,7 @@
             <div class="row gutter_15px">
                <div class="col-lg-5 col-md-5 col-sm-12">
                   <div class="theme_btn_all color_one">
-                     <a href="#" target="_blank" rel="nofollow" class="theme-btn five">Learn More <i
-                           class="icon-right-arrow"></i></a>
+                     <a href="#" target="_blank" rel="nofollow" class="theme-btn five">Learn More <i class="icon-right-arrow"></i></a>
                   </div>
                   <!--===============spacing==============-->
                   <div class="pd_bottom_40"></div>
@@ -603,114 +647,112 @@
 <section class="content-section pd_left_100 pd_right_100 md_pd_left_15 md_pd_right_15">
 
    <div class="inner_section bg_light_1 rounded_radius">
-       <!--===============spacing==============-->
-       <div class="pd_top_90"></div>
-       <!--===============spacing==============-->
-       <div class="row">
-           <div class="col-lg-6 col-md-12 pd_left_100 pd_right_100 md_pd_left_15 md_pd_right_15">
-               <!--===============spacing==============-->
-               <div class="pd_top_30 d_md_none"></div>
-               <!--===============spacing==============-->
-               <div class="title_all_box style_one  dark_color">
-                   <div class="title_sections left">
-                       <div class="before_title">
-                        Collaboration </div>
-                       <div class="title"> Effective Solutions</div>
-                       <p> We work with you to identify positional requirements, implement
-                           solution programs, and initiate assessments that maximize health efforts</p>
-                   </div>
+      <!--===============spacing==============-->
+      <div class="pd_top_90"></div>
+      <!--===============spacing==============-->
+      <div class="row">
+         <div class="col-lg-6 col-md-12 pd_left_100 pd_right_100 md_pd_left_15 md_pd_right_15">
+            <!--===============spacing==============-->
+            <div class="pd_top_30 d_md_none"></div>
+            <!--===============spacing==============-->
+            <div class="title_all_box style_one  dark_color">
+               <div class="title_sections left">
+                  <div class="before_title">
+                     Collaboration </div>
+                  <div class="title"> Effective Solutions</div>
+                  <p> We work with you to identify positional requirements, implement
+                     solution programs, and initiate assessments that maximize health efforts</p>
                </div>
-               <div class="list_item_box style_two style_list">
-                   <ul class="list-inline">
-                       <li class="list_items">
-                           <small class="d-flex align-items-start">
-                               <span class="icon_bx mr_top_5">
-                                   <i class="fa fa-check-circle"></i>
-                               </span>
-                               <a class="nav_link" href="#">
-                                   We’re here to help you step up you.
-                               </a>
-                           </small>
-                       </li>
-                       <!--===============spacing==============-->
-                       <div class="pd_bottom_10"></div>
-                       <!--===============spacing==============-->
-                       <li class="list_items">
-                           <small class="d-flex align-items-start">
-                               <span class="icon_bx mr_top_5">
-                                   <i class="fa fa-check-circle"></i>
-                               </span>
-                               <a class="nav_link" href="#">
-                                   Access to quality healthcare and employee benefits.
-                               </a>
-                           </small>
-                       </li>
-                       <!--===============spacing==============-->
-                       <div class="pd_bottom_10"></div>
-                       <!--===============spacing==============-->
-                       <li class="list_items">
-                           <small class="d-flex align-items-center">
-                               <span class="icon_bx">
-                                   <i class="fa fa-check-circle"></i>
-                               </span>
-                               <a class="nav_link" href="#">
-                                   The only solutions service provider you'll only ever need
-                               </a>
-                           </small>
-                       </li>
-                       <!--===============spacing==============-->
-                       <div class="pd_bottom_10"></div>
-                       <!--===============spacing==============-->
-                       <li class="list_items">
-                           <small class="d-flex align-items-center">
-                               <span class="icon_bx">
-                                   <i class="fa fa-check-circle"></i>
-                               </span>
-                               <a class="nav_link" href="#">
-                                   We'll always offer you custom solutions that suit your needs.
-                               </a>
-                           </small>
-                       </li>
-                   </ul>
-               </div>
-               <!--===============spacing==============-->
-               <div class="pd_bottom_20"></div>
-               <!--===============spacing==============-->
-               <div class="theme_btn_all color_one">
-                   <a href="#" class="theme-btn one">
-                       Contact us
-                   </a>
-               </div>
-               <!--===============spacing==============-->
-               <div class="pd_bottom_30"></div>
-               <!--===============spacing==============-->
-           </div>
-           <div class="col-lg-6 col-md-12 pd_zero bg_op_1 overflow-hidden rounded_bottom_left_30 rounded_bottom_left_30"
-               style="background: url(images/about/about-11.jpg);">
+            </div>
+            <div class="list_item_box style_two style_list">
+               <ul class="list-inline">
+                  <li class="list_items">
+                     <small class="d-flex align-items-start">
+                        <span class="icon_bx mr_top_5">
+                           <i class="fa fa-check-circle"></i>
+                        </span>
+                        <a class="nav_link" href="#">
+                           We’re here to help you step up you.
+                        </a>
+                     </small>
+                  </li>
+                  <!--===============spacing==============-->
+                  <div class="pd_bottom_10"></div>
+                  <!--===============spacing==============-->
+                  <li class="list_items">
+                     <small class="d-flex align-items-start">
+                        <span class="icon_bx mr_top_5">
+                           <i class="fa fa-check-circle"></i>
+                        </span>
+                        <a class="nav_link" href="#">
+                           Access to quality healthcare and employee benefits.
+                        </a>
+                     </small>
+                  </li>
+                  <!--===============spacing==============-->
+                  <div class="pd_bottom_10"></div>
+                  <!--===============spacing==============-->
+                  <li class="list_items">
+                     <small class="d-flex align-items-center">
+                        <span class="icon_bx">
+                           <i class="fa fa-check-circle"></i>
+                        </span>
+                        <a class="nav_link" href="#">
+                           The only solutions service provider you'll only ever need
+                        </a>
+                     </small>
+                  </li>
+                  <!--===============spacing==============-->
+                  <div class="pd_bottom_10"></div>
+                  <!--===============spacing==============-->
+                  <li class="list_items">
+                     <small class="d-flex align-items-center">
+                        <span class="icon_bx">
+                           <i class="fa fa-check-circle"></i>
+                        </span>
+                        <a class="nav_link" href="#">
+                           We'll always offer you custom solutions that suit your needs.
+                        </a>
+                     </small>
+                  </li>
+               </ul>
+            </div>
+            <!--===============spacing==============-->
+            <div class="pd_bottom_20"></div>
+            <!--===============spacing==============-->
+            <div class="theme_btn_all color_one">
+               <a href="#" class="theme-btn one">
+                  Contact us
+               </a>
+            </div>
+            <!--===============spacing==============-->
+            <div class="pd_bottom_30"></div>
+            <!--===============spacing==============-->
+         </div>
+         <div class="col-lg-6 col-md-12 pd_zero bg_op_1 overflow-hidden rounded_bottom_left_30 rounded_bottom_left_30" style="background: url(images/about/about-11.jpg);">
 
-           </div>
-       </div>
-       <div class="row">
-           <div class="col-lg-6 col-md-12"></div>
-           <div class="col-lg-6 col-md-12">
-               <div class="row no-space">
-                   <div class="col-lg-2"></div>
-                   <div class="col-lg-6 bg_dark_2 mr_top_minus_150 mr_md_top_zero pd_top_50  pd_left_70 pd_right_50 rounded_radius pd_bottom_20 bg_op_1"
-                       style="background-image: url(images/pannern-n3.png)!important;">
-                       <div class="title_all_box style_one light_color">
-                           <div class="title_sections left">
-                               <div class="before_title color_white">8,435+</div>
-                               <p class="color_white">Trusted, Happy & Satisfied Customers</p>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-lg-24"></div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-6 col-md-12"></div>
+         <div class="col-lg-6 col-md-12">
+            <div class="row no-space">
+               <div class="col-lg-2"></div>
+               <div class="col-lg-6 bg_dark_2 mr_top_minus_150 mr_md_top_zero pd_top_50  pd_left_70 pd_right_50 rounded_radius pd_bottom_20 bg_op_1" style="background-image: url(images/pannern-n3.png)!important;">
+                  <div class="title_all_box style_one light_color">
+                     <div class="title_sections left">
+                        <div class="before_title color_white">8,435+</div>
+                        <p class="color_white">Trusted, Happy & Satisfied Customers</p>
+                     </div>
+                  </div>
                </div>
-           </div>
-       </div>
-       <!--===============spacing==============-->
-       <div class="pd_bottom_60"></div>
-       <!--===============spacing==============-->
+               <div class="col-lg-24"></div>
+            </div>
+         </div>
+      </div>
+      <!--===============spacing==============-->
+      <div class="pd_bottom_60"></div>
+      <!--===============spacing==============-->
    </div>
 
 </section>

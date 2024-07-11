@@ -4,7 +4,7 @@
     <div class="page_header_default style_one ">
         <div class="parallax_cover">
             <!-- removeed the 1 i first put /about_top.jpg -->
-            <img src="{{ asset('images/banner/woman_baby_about.jpg') }}" alt="bg_image" class="cover-parallax">
+            <img src="{{ asset('images/banner/choose_us_2.jpg') }}" alt="bg_image" class="cover-parallax">
         </div>
         <div class="page_header_content pd_top_90">
             <div class="auto-container">
@@ -229,7 +229,7 @@
                         <div class="s_tab_wrapper">
                             <div class="s_tabs_content">
                                 <div class="s_tab fade active-tab show" id="tabtabone">
-                                    <div class="tab_content one" style="background-image:url({{asset('images/banner/choose_us_2.jpg')}})">
+                                    <div class="tab_content one" style="background-image:url({{asset('images/banner/woman_baby_about.jpg')}})">
                                         <div class="content_image">
                                             <h6>Why Choose Us</h6>
 
