@@ -224,10 +224,17 @@ Generat Settings
   }
  
 
+/* Apply a default height for larger screens */
+.image-layer {
+  background-size: cover; /* Ensure the background image covers the area */
+  background-position: center; /* Center the background image */
+  height: 700px!important; /* Example height, adjust as needed */
+}
+
 /* Adjust the height for smaller screens */
 @media (max-width: 768px) {
   .image-layer {
-      height: 100vh!important; /* Smaller height for mobile devices */
+      height: 500px!important; /* Smaller height for mobile devices */
   }
 }
   /**
