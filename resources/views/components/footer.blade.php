@@ -102,18 +102,18 @@
                       <div class="foo_cont_inner">
                          <div class="top">
                             <h6> Location</h6>
-                            <p> 20 Camfield Crescent Mambourin VIC, 3024
+                            <p> 20 Camfield Crescent Mambourin, 3024
                             </p>
                          </div>
                          <div class="bottom">
                             <h6> Contact</h6>
                             <div class="con_content">
                                <h5> Phone :</h5>
-                               <a href="tel:+0123456789"> +0123456789</a>
+                               <a href="tel:0431463713"> 0431463713</a>
                             </div>
                             <div class="con_content">
                                <h5> Mail Us :</h5>
-                               <a href="tel:sendmail@example.com"> sendmail@example.com</a>
+                               <a href="tel:info@h24supportservices.com"> info@h24supportservices.com</a>
                             </div>
                          </div>
                       </div>

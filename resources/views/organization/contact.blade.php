@@ -111,7 +111,7 @@
                             <div class="contnet">
                                 <h3> Post Address </h3>
                                 <p>
-                                    20 Camfield Crescent Mambourin VIC, 3024
+                                    20 Camfield Crescent Mambourin, 3024
 
                                 </p>
                             </div>
@@ -128,7 +128,23 @@
                             <div class="contnet">
                                 <h3> Enquires </h3>
                                 <p>
-                                    Phone: +0123456789 &amp; Email: sendmail@example.com
+                                    Phone: 0431463713 | 0447861682
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--===============spacing==============-->
+                    <div class="pd_bottom_15"></div>
+                    <!--===============spacing==============-->
+                    <div class="contact_box_content style_one">
+                        <div class="contact_box_inner icon_yes">
+                            <div class="icon_bx">
+                                <span class="icon-mail"></span>
+                            </div>
+                            <div class="contnet">
+                                <h3> Enquires </h3>
+                                <p>
+                                    Email: info@h24supportservices.com
                                 </p>
                             </div>
                         </div>
