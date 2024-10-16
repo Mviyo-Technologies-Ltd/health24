@@ -9,14 +9,14 @@
                         <i class="icon-placeholder"></i>
                         <div class="text">
                            <small>Location</small>
-                           <span>20 Camfield Crescent Mambourin VIC, 3024</span>
+                           <span>20 Camfield Crescent Mambourin, 3024</span>
                         </div>
                      </div>
                      <div class="contntent email">
                         <i class="icon-email"></i>
                         <div class="text">
                            <small>Email</small>
-                           <a href="mailto:sendmail@example.com">sendmail@example.com</a>
+                           <a href="mailto:info@h24supportservices.com">info@h24supportservices.com</a>
                         </div>
                      </div>
                   </div>
@@ -25,7 +25,7 @@
                         <i class="icon-phone-call"></i>
                         <div class="text">
                            <small>Phone</small>
-                           <a href="tel:+0123456789">+0123456789</a>
+                           <a href="tel:0431463713">0431463713</a>
                         </div>
                      </div>
                      <div class="contntent media">

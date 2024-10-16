@@ -3,7 +3,8 @@
 @section('content')
     <div class="page_header_default style_one ">
         <div class="parallax_cover">
-            <img src="{{ asset('images/banner/about.png') }}" alt="bg_image" class="cover-parallax">
+            <!-- removeed the 1 i first put /about_top.jpg -->
+            <img src="{{ asset('images/banner/choose_us_2.jpg') }}" alt="bg_image" class="cover-parallax">
         </div>
         <div class="page_header_content pd_top_90">
             <div class="auto-container">
@@ -143,7 +144,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="simple_image_boxes parallax_cover height_264px">
-                        <img src="{{ asset('images/about/about-2.png') }}" class="simp_img cover-parallax" alt="image">
+                        <img src="{{ asset('images/about/standout.jpg') }}" class="simp_img cover-parallax" alt="image">
                     </div>
                     <!--===============spacing==============-->
                     <div class="pd_bottom_20"></div>
@@ -207,7 +208,7 @@
                     <div class="pd_bottom_20"></div>
                     <!--===============spacing==============-->
                     <div class="simple_image_boxes  height_264px">
-                        <img src={{asset('images/about/about-3.png')}} class="simp_img img-fluid" alt="image">
+                        <img src={{asset('images/about/vision_about.jpg')}} class="simp_img img-fluid" alt="image">
                     </div>
                 </div>
             </div>
@@ -215,6 +216,50 @@
         <!--===============spacing==============-->
         <div class="pd_top_90"></div>
         <!--===============spacing==============-->
+    </section>
+
+    <section class="video-section">
+        <div class="container-fluid pd_zero">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 overflow-hidden pd_zero bg_op_1"
+                    style="background: url({{asset('images/about/child.jpg')}});">
+                    <!--===============spacing==============-->
+                    <div class="pd_top_240"></div>
+                    <div class="pd_top_60"></div>
+                    <!--===============spacing==============-->
+                    <!--===============spacing==============-->
+                    <div class="pd_bottom_240"></div>
+                    <div class="pd_bottom_50"></div>
+                    <!--===============spacing==============-->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pd_zero pd_left_100 pd_right_100 md_pd_left_15 md_pd_right_15">
+                    <!--===============spacing==============-->
+                    <div class="pd_top_110"></div>
+                    <!--===============spacing==============-->
+                    <div class="title_all_box style_one  dark_color">
+                        <div class="title_sections">
+                            <div class="before_title">
+                                Our Audience
+                            </div>
+                            <div class="title"> Here is our target audience/demographic?  </div>
+                            <p>We targt the following age groups respectively: 0 – 6 years, 7 – 16 years, 17 – 65 years, and over 65 years.
+                                Participant groups are as follows: acquired brain injury, aged care, autism, dementia, intellectual disability, mental health, physical disability including sensory disability, spinal injury, and ventilator dependent. </p>
+                        </div>
+                    </div>
+                    <!--===============spacing==============-->
+                    <div class="pd_bottom_5"></div>
+                    <!--===============spacing==============-->
+                    <!--===============spacing==============-->
+                    <div class="pd_bottom_25"></div>
+                    <!--===============spacing==============-->
+                    <!--===============spacing==============-->
+                    <div class="pd_bottom_90"></div>
+                    <!--===============spacing==============-->
+                </div>
+
+            </div>
+        </div>
+
     </section>
 
     <section class="tab-section bg_op_1">
@@ -228,7 +273,7 @@
                         <div class="s_tab_wrapper">
                             <div class="s_tabs_content">
                                 <div class="s_tab fade active-tab show" id="tabtabone">
-                                    <div class="tab_content one" style="background-image:url({{asset('images/banner/about-1.png')}})">
+                                    <div class="tab_content one" style="background-image:url({{asset('images/banner/woman_baby_about.jpg')}})">
                                         <div class="content_image">
                                             <h6>Why Choose Us</h6>
 
